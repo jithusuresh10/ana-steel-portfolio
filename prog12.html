@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo class</title>
+    <style>
+        a{
+            font-size: 50px;
+            /*unvisted link*/
+            }
+        a:link{
+            color: green;
+        }
+        a:hover{
+            color: yellow;
+        }
+        /*visited - already visited the link*/
+        }
+        a:visited{
+            color: blue;
+        }
+        p::first-letter{
+            font-size: 50px;
+            color: red;
+        }
+        h2::before{
+            content: ".......";
+
+        }
+    </style>
+</head>
+<body>
+    <h2>Pseudo class and Pseudo element</h2>
+    <a href="https://about.google/intl/ALL_in/" target="_blank">about google</a>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam eveniet quis quae. Ab pariatur eos, repellat corrupti accusantium iste molestiae, voluptatibus porro, odit consequatur aperiam illum! Harum culpa quos natus.</p>
+
+</body>
+</html>
